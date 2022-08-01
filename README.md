@@ -25,10 +25,16 @@ Flutter Posts App.
 
 ## Screen Shots
 
-![](C:/Users/taha/Desktop/login.png)
-![](C:/Users/taha/Desktop/register.png)
-![](C:/Users/taha/Desktop/reset_password.png)
-![](C:/Users/taha/Desktop/profile.png)
-![](C:/Users/taha/Desktop/empty_list.png)
-![](C:/Users/taha/Desktop/posts.png)
-![](C:/Users/taha/Desktop/drawer.png)
+  <img src="https://user-images.githubusercontent.com/95647394/182053629-99ff2877-8620-4484-bb93-37ae124e3f6e.png" width="300">
+
+  <img src="https://user-images.githubusercontent.com/95647394/182053636-e6113d07-f774-4134-ba0e-305679504c39.png" width="300">
+
+  <img src="https://user-images.githubusercontent.com/95647394/182053651-79c2d4ed-87fc-4583-aa68-c844fa09ccfb.png" width="300">
+
+  <img src="https://user-images.githubusercontent.com/95647394/182053666-45ee3df4-1d6b-4210-bf4c-47b01faa8356.png" width="300">
+
+  <img src="https://user-images.githubusercontent.com/95647394/182053697-23ea28c3-e412-4409-9fb4-fd721c8202f2.png" width="300">
+
+  <img src="https://user-images.githubusercontent.com/95647394/182053706-e2bff4bb-9443-4553-9d31-673275ee804a.png" width="300">
+
+  <img src="https://user-images.githubusercontent.com/95647394/182053710-5812c51a-9cab-439e-9e2d-e9efe33c7276.png" width="300">
