@@ -188,4 +188,10 @@ class PostCubit extends Cubit<PostStates> {
   Future<void> closeDatabase() async {
     await _closeLocalDatabaseUseCase.call(NoParams());
   }
+
+  @override
+  Future<void> close() {
+    closeDatabase();
+    return super.close();
+  }
 }

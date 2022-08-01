@@ -7,16 +7,16 @@ import 'package:social_task/features/auth/presentation/cubit/auth_states.dart';
 import 'package:social_task/generated/l10n.dart';
 import 'package:social_task/utilities/constants/app_sizes.dart';
 
-class ResetPasswordDialog extends StatefulWidget {
-  const ResetPasswordDialog({Key? key}) : super(key: key);
+class ResetPasswordMobile extends StatefulWidget {
+  const ResetPasswordMobile({Key? key}) : super(key: key);
 
   @override
-  State<ResetPasswordDialog> createState() => _ResetPasswordDialogState();
+  State<ResetPasswordMobile> createState() => _ResetPasswordMobileState();
 }
 
-class _ResetPasswordDialogState extends State<ResetPasswordDialog> {
+class _ResetPasswordMobileState extends State<ResetPasswordMobile> {
   final _formKey = GlobalKey<FormState>();
-  final _emailController = TextEditingController(text: 'telkholy92@gmail.com');
+  final _emailController = TextEditingController();
   final _passwordController = TextEditingController();
   final _newPasswordController = TextEditingController();
 

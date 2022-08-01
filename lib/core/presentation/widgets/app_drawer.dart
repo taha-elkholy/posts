@@ -82,7 +82,6 @@ class _AppDrawerState extends State<AppDrawer> {
               title: S.current.logout,
               onPressed: () {
                 BlocProvider.of<AuthCubit>(context).logout();
-                Navigator.popUntil(context, (route) => route.isFirst);
               },
             );
           }),

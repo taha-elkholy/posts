@@ -29,6 +29,7 @@ dependencies:
   dartz: ^0.10.1
   sqflite: ^2.0.3
   shared_preferences: ^2.0.15
+  responsive_builder: ^0.4.2
 
 dev_dependencies:
   flutter_test:

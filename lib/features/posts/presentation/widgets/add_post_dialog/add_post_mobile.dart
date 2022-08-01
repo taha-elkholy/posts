@@ -13,16 +13,16 @@ import 'package:social_task/utilities/constants/app_colors.dart';
 import 'package:social_task/utilities/constants/app_sizes.dart';
 import 'package:social_task/utilities/utilities.dart';
 
-class AddPostDialog extends StatefulWidget {
-  const AddPostDialog({
+class AddPostMobile extends StatefulWidget {
+  const AddPostMobile({
     Key? key,
   }) : super(key: key);
 
   @override
-  State<AddPostDialog> createState() => _AddPostDialogState();
+  State<AddPostMobile> createState() => _AddPostMobileState();
 }
 
-class _AddPostDialogState extends State<AddPostDialog> {
+class _AddPostMobileState extends State<AddPostMobile> {
   File? postImage;
   final _formKey = GlobalKey<FormState>();
   final _contentController = TextEditingController();

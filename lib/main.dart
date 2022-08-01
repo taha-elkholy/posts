@@ -16,6 +16,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
   await configureInjection();
+
   runApp(const MyApp());
 }
 
@@ -37,21 +38,23 @@ class MyApp extends StatelessWidget {
         ),
       ],
       child: BlocBuilder<LocaleCubit, LocaleStates>(
-        builder: (context, state) => MaterialApp(
-          onGenerateTitle: (_) => S.current.appName,
-          debugShowCheckedModeBanner: false,
-          locale: BlocProvider.of<LocaleCubit>(context).locale,
-          supportedLocales: S.delegate.supportedLocales,
-          localizationsDelegates: const [
-            S.delegate,
-            GlobalMaterialLocalizations.delegate,
-            GlobalWidgetsLocalizations.delegate,
-            GlobalCupertinoLocalizations.delegate,
-          ],
-          theme: AppThemes.lightTheme,
-          onGenerateRoute: onGenerate,
-          initialRoute: AppRoutes.landingPageRoute,
-        ),
+        builder: (context, state) {
+          return MaterialApp(
+            onGenerateTitle: (_) => S.current.appName,
+            debugShowCheckedModeBanner: false,
+            locale: BlocProvider.of<LocaleCubit>(context).locale,
+            supportedLocales: S.delegate.supportedLocales,
+            localizationsDelegates: const [
+              S.delegate,
+              GlobalMaterialLocalizations.delegate,
+              GlobalWidgetsLocalizations.delegate,
+              GlobalCupertinoLocalizations.delegate,
+            ],
+            theme: AppThemes.lightTheme,
+            onGenerateRoute: onGenerate,
+            initialRoute: AppRoutes.landingPageRoute,
+          );
+        },
       ),
     );
   }

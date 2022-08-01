@@ -8,8 +8,8 @@ import 'package:social_task/features/posts/presentation/cubit/post_cubit.dart';
 import 'package:social_task/utilities/constants/app_colors.dart';
 import 'package:social_task/utilities/constants/app_sizes.dart';
 
-class PostItem extends StatelessWidget {
-  const PostItem({Key? key, required this.post}) : super(key: key);
+class PostItemMobile extends StatelessWidget {
+  const PostItemMobile({Key? key, required this.post}) : super(key: key);
   final Post post;
 
   @override
@@ -98,7 +98,7 @@ class PostItem extends StatelessWidget {
             Text(
               post.content,
               textAlign: TextAlign.start,
-              style: Theme.of(context).textTheme.bodyLarge,
+              style: Theme.of(context).textTheme.titleLarge,
             )
           ],
         ),
