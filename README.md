@@ -23,7 +23,7 @@ Flutter Posts App.
 - Firebase, sqflite, shared_preferences,
 - freezed, dartz, image_picker, responsive_builder
 
-## Screen Shots
+## screenshots
 
 ![](C:/Users/taha/Desktop/login.png)
 ![](C:/Users/taha/Desktop/register.png)
