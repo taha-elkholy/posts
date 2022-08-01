@@ -1,16 +1,34 @@
 # social_task
 
-A new Flutter project.
+Flutter Posts App.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+* This project is a post demo app as a task to be in my portfolio.
+* Firebase is used for Auth, Storage files and save database on Firestore database
+* As much as i can write the code clean
+* Any one can contribute with me for enhancements
 
-A few resources to get you started if this is your first Flutter project:
+## Project Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* User Authentication login, register, logout, and reset password
+* Update user data for the profile image
+* Add new Post, like, share, save to and remove from locale database
+* Responsive with Mobile and Tablet Screen size
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## main Packages
+
+- get_it & injectable for DI
+- Bloc for state management -- Others
+- Firebase, sqflite, shared_preferences,
+- freezed, dartz, image_picker, responsive_builder
+
+## Screen Shots
+
+![](C:/Users/taha/Desktop/login.png)
+![](C:/Users/taha/Desktop/register.png)
+![](C:/Users/taha/Desktop/reset_password.png)
+![](C:/Users/taha/Desktop/profile.png)
+![](C:/Users/taha/Desktop/empty_list.png)
+![](C:/Users/taha/Desktop/posts.png)
+![](C:/Users/taha/Desktop/drawer.png)
